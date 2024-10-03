@@ -11,6 +11,7 @@
 		E1600CCD2CAF111300E43AB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1600CCC2CAF111300E43AB0 /* ContentView.swift */; };
 		E1600CCF2CAF111400E43AB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1600CCE2CAF111400E43AB0 /* Assets.xcassets */; };
 		E1600CD22CAF111400E43AB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1600CD12CAF111400E43AB0 /* Preview Assets.xcassets */; };
+		E1600CDB2CAF122900E43AB0 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1600CDA2CAF122900E43AB0 /* Expense.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E1600CCC2CAF111300E43AB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E1600CCE2CAF111400E43AB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1600CD12CAF111400E43AB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1600CDA2CAF122900E43AB0 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				E1600CCA2CAF111300E43AB0 /* ExpenseTrackerApp.swift */,
+				E1600CDA2CAF122900E43AB0 /* Expense.swift */,
 				E1600CCC2CAF111300E43AB0 /* ContentView.swift */,
 				E1600CCE2CAF111400E43AB0 /* Assets.xcassets */,
 				E1600CD02CAF111400E43AB0 /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1600CDB2CAF122900E43AB0 /* Expense.swift in Sources */,
 				E1600CCD2CAF111300E43AB0 /* ContentView.swift in Sources */,
 				E1600CCB2CAF111300E43AB0 /* ExpenseTrackerApp.swift in Sources */,
 			);
